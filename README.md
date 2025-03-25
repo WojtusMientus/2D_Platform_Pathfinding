@@ -10,7 +10,9 @@ The system consists of three main classes:
 2. **🟦 Platform Class** - Represents a platform where AI can move, has a unique ID, and assigns nodes at game start.
 3. **🔗 NodeConnection Class** - Represents a connection to another node in the game.
 
+
 Connections can be **one-directional** or **two-directional** (both nodes need to be connected in the latter case). At game start, nodes assign themselves to platforms via **line tracing** and snap to predefined positions. Additionally, the system allows snapping the leftmost and rightmost nodes to the platform edges.
+
 
 One-directional paths can be used to create **passages where AI can jump down but must find another way to return**, adding more strategic complexity to level design. 🎯
 
@@ -19,10 +21,10 @@ One-directional paths can be used to create **passages where AI can jump down bu
 
 ## 🔍 Pathfinding Algorithm
 
-The system uses a **custom 2D adaptation of the A* algorithm**, designed specifically for platforming movement, taking in three parameters:
+The system uses a *custom 2D adaptation of the A** *algorithm*, designed specifically for platforming movement, taking in three parameters:
 
 - **📍 Starting Position**
-- **🎯 Ending Position** (only required for the shortest path)
+- **🎯 Ending Position**
 - **🆔 Ending Platform ID**
 
 Since the AI does not pathfind to the player's exact position but to the platform instead, it switches from **pathfinding mode** to **walking mode** once it reaches the correct platform.
