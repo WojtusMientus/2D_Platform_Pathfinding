@@ -40,7 +40,7 @@ The AI operates in three distinct states:
 2. **🚶 Walking State** – AI is on the same platform as the player and moves toward them.
 3. **⚔️ Attacking State** – AI stops moving for **one second** when close enough to the player.
 
-The AI recalculates its path or changes state when it **collides with a platform** or when the **player lands on a new platform**.
+The AI recalculates its path or changes state when it **collides with a platform** or when the **player lands on a platform**.
 
 **Example of AI Chasing Player:**  
 ![AI Chasing Player](Assets/Gify/Pathfinding%20Enemy%20demo.gif)
