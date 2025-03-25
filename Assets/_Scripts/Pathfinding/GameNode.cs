@@ -69,7 +69,8 @@ public class GameNode : MonoBehaviour
             
             DebugUtils.DrawArrow(transform.position, connection.GameNode.transform.position, nodeDebugger);
         }
-        Gizmos.color = new Color(255, 255, 0, 0.5f);
+
+        Gizmos.color = nodeDebugger.drawingColor;
         Gizmos.DrawSphere(transform.position, nodeDebugger.nodeRadius);
     }
     

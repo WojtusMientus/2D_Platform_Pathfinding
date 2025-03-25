@@ -307,9 +307,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ff55c48550283d4fbc03f1acfbc37d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drawingColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 0.47058824}
-  nodeRadius: 0.2
-  connectionLineThickness: 1
+  drawingColor: {r: 1, g: 0.9963958, b: 0.015686274, a: 0.47058824}
+  nodeRadius: 0.12
+  connectionLineThickness: 1.5
   drawDebug: 1
 --- !u!4 &156145731
 Transform:
