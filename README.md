@@ -11,7 +11,7 @@ The system consists of three main classes:
 3. **🔗 NodeConnection Class** - Represents a connection to another node in the game.
 
 
-Connections can be **one-directional** or **two-directional** (both nodes need to be connected in the latter case). At game start, nodes assign themselves to platforms via **line tracing** and snap to predefined positions. Additionally, the system allows snapping the leftmost and rightmost nodes to the platform edges.
+Connections can be **one-directional** or **two-directional** (both nodes need to be connected in the latter case). At game start, nodes assign themselves to platforms via **line tracing** and snaps above the platform to predefined height. Additionally, the system allows snapping the leftmost and rightmost nodes to the platform edges.
 
 
 One-directional paths can be used to create **passages where AI can jump down but must find another way to return**, adding more strategic complexity to level design. 🎯
